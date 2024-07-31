@@ -9,7 +9,7 @@ const Home = () => {
           <h3>Hello, It's Me</h3>
           <h1>Mitali Rasaniya</h1>
           <h3 className='text-animation'>And I'm a <span></span></h3>
-          <p>Highly motivated Full Stack Developer Learner with a strong foundation in HTML, CSS, JavaScript, React, Node.js, Express.js and MongoDB</p>
+          <p>I'm a MERN stack developer who loves turning ideas into real websites. I use MongoDB, Express.js, React, and Node.js to build awesome web apps. I enjoy creating things that look good and work smoothly. Let's build something cool together!</p>
 
       <span>
       <a href="https://github.com/mitali1411" target='_blank'><i className='bx bxl-github'></i></a>

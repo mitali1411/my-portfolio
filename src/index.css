@@ -10,7 +10,9 @@
 body{
     background-image: url('./assets/5297078.jpg');
     background-position: center;
-    /* background: #00142b; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #nav-list, .dropdown{
@@ -83,6 +85,7 @@ body{
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
+    backdrop-filter: blur(10px);
 }
 .left1 h1{
     font-size: 56px;
@@ -95,6 +98,7 @@ body{
 }
 .left1 p{
     font-size: 20px;
+    backdrop-filter: blur(10px);
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -207,6 +211,7 @@ body{
 .right2 h3{
     font-size: 32px;
     font-weight: 700;
+    backdrop-filter: blur(10px);
     font-family: "Play", sans-serif;
     cursor: pointer;
     opacity: 0;
@@ -502,6 +507,9 @@ footer{
 footer p{
     margin-top: 5px;
 }
+footer b{
+    margin-bottom:9px;
+}
 
 
 
@@ -606,12 +614,6 @@ footer p{
 
 @media(max-width : 768px){
     
-    body{
-        background: url('./assets/BG.jpg');
-        background-position: center;
-        background-size: contain;
-        scroll-behavior: smooth;
-    }
     .header{
         width: 100%;
         height: auto;

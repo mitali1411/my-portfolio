@@ -35,12 +35,13 @@ const Contact = () => {
       <div className="contact">
         <div className="info">
           <h1>Let's Talk</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p> */}
+          <p>Let's create something amazing together. Contact me.</p>
 
           <div className="address">
           <span>
           <i class='bx bxs-envelope'></i>
-          <a href="mailto:mitalirasaniya14@gmail.com" target='_blank'>mitalirasaniya14@gmail.com</a>
+          <a href="mailto:mitalirasaniya@gmail.com" target='_blank'>mitalirasaniya@gmail.com</a>
           </span>
 
           <span>
