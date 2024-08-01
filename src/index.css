@@ -9,7 +9,6 @@
 }
 body{
     background-image: url('./assets/5297078.jpg');
-    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,14 +33,19 @@ body{
     color: #ededed;
 }
 .logo{
+    width: 200px;
     position: relative;
-    font-size: 25px;
-    color: #fff;
+    font-size: 20px;
     text-decoration: none;
+    color: #a8d3f2;
+    text-shadow: 0 0 5px #3591d3, 0 0 20px #3591d3;
     font-weight: 600;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
+}
+.logo img{
+    width: 180px;
 }
 .navbar a{
    display: inline-block;
@@ -56,8 +60,8 @@ body{
 }
 .navbar a:hover,
 .navbar a.active{
-    color: #0ef;
-    border-bottom: 3px solid #0ef;
+    color: #3591d3;
+    border-bottom: 3px solid #3591d3;
 }
 .home{
     height: auto;
@@ -108,10 +112,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #3591d3;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #3591d3;
     margin: 30px 15px 30px 0;
     padding: 7px;
     font-size: 22px;
@@ -121,16 +125,16 @@ body{
     animation-delay: .2s;
 }
 .left1 i:hover{
-    background: #0ef;
+    background: #3591d3;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #3591d3;
 }
 .btn-box{
     height: auto;
     width: 190px;
     display: block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #3591d3;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -140,12 +144,12 @@ body{
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 1.5s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef
+    /* box-shadow: 0 0 5px #3591d3, 0 0 25px #3591d3 */
 }
 .btn-box:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 150px cyan;
+    box-shadow: 0 0 5px #055d9c,
+    0 0 15px #055d9c, 0 0 30px #055d9c,
+    0 0 45px #055d9c, 0 0 60px #055d9c;
 }
 .right1{
     height: auto;
@@ -169,11 +173,11 @@ body{
 }
 .text-animation span::before{
     content: 'Full Stack Developer';
-    color: #0ef;
+    color: #3591d3;
     animation: words 20s infinite;
 }
 .text-animation span::after{
-    content: " ";
+    content: "";
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -181,6 +185,8 @@ body{
     right: -8px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
+
+
 
 
 
@@ -219,7 +225,7 @@ body{
     animation-delay: .7s;
 }
 .right2 h3 span{
-    color: #0ef;
+    color: #3591d3;
 }
 .right2 p{
     font-size: 18px;
@@ -248,7 +254,7 @@ body{
     cursor: pointer;
 }
 .skill-section h3 span{
-    color: #0ef;
+    color: #3591d3;
 }
 .skills{
     width: 100%;
@@ -263,21 +269,21 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #0ef;
+    border: 2px solid #3591d3;
     color: #ededed;
     border-radius: 10px;
     margin: 30px;
     transition: 0.4s ease-in-out;
-    box-shadow:0 0 5px#0ef, 0 0 10px #0ef, 0 0 20px #0ef;
+    box-shadow:0 0 5px#3591d3, 0 0 10px #3591d3, 0 0 20px #3591d3;
     backdrop-filter: blur(20px);
 }
 .box:hover{
     color: greenyellow;
     transform: scale(50px);
     transform: scale(1.05);
-    color: #0ef;
+    color: #3591d3;
     border: 3px solid #081b29;
-    box-shadow: 0 0 5px #0ef, 0 0 15px #0ef;
+    box-shadow: 0 0 5px #3591d3, 0 0 15px #3591d3;
 }
 .box img{
     width: 100px;
@@ -307,7 +313,7 @@ body{
     animation-delay: .7s; */
 }
 .project-section h3 span{
-    color: #0ef;
+    color: #3591d3;
 }
 .projects{
     width: 100%;
@@ -332,7 +338,7 @@ body{
 .box1:hover{
     transform: scale(1.1);
     filter: brightness(100%);
-    border: 3px solid #0ef;
+    border: 3px solid #3591d3;
     transition: 0.3s;
 }
 .box1:hover .layer{
@@ -409,7 +415,7 @@ body{
     cursor: pointer;
 }
 .contact-section h3 span{
-    color: #0ef;
+    color: #3591d3;
 }
 
 .contact{
@@ -441,16 +447,16 @@ body{
 }
 .info i{
     font-size: 22px;
-    color: #0ef;
+    color: #3591d3;
     margin-right: 20px;
-    border: 2px solid #0ef;
+    border: 2px solid #3591d3;
     border-radius: 30px;
     padding: 8px;   
 }
 .info i:hover{
-    background: #0ef;
+    background: #3591d3;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #3591d3;
 }
 
 form{
@@ -465,12 +471,12 @@ form{
 }
 .form-control{
     margin-top:10px;
-    border: 2px solid #0ef;
+    border: 2px solid #3591d3;
     backdrop-filter: blur(50px);
     background-color: transparent;
 }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #0ef;
+    color: #3591d3;
     opacity: 0.7; /* Firefox */
 } 
   
@@ -480,7 +486,7 @@ form button{
     width: 190px;
     display: block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #3591d3;
     border-radius: 40px;
     border: none;
     font-size: 16px;
@@ -488,12 +494,12 @@ form button{
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef
+    box-shadow: 0 0 5px #3591d3, 0 0 25px #3591d3
 }
 form button:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 75px cyan, 0 0 100px cyan;
+    box-shadow: 0 0 5px #055d9c,
+    0 0 15px #055d9c, 0 0 30px #055d9c,
+    0 0 45px #055d9c, 0 0 60px #055d9c;
 }
 footer{
     width: 100%;
@@ -561,7 +567,7 @@ footer b{
 
 @keyframes cursor {
     to{
-        border-left: 4px solid #0ef;
+        border-left: 4px solid #3591d3;
     }
 }
 
@@ -628,11 +634,14 @@ footer b{
     #nav-list, .dropdown{
         display: inline;
         background-color: transparent;
-        color: #0ef;
+        color: #3591d3;
         border: none;
         padding: 0;
         margin: auto;
         font-size: 30px;
+    }
+    .logo img{
+        width: 140px;
     }
     .home{
         width: 100%;
@@ -642,7 +651,7 @@ footer b{
         width: 100%;
         height: auto;
         flex-direction: column;
-        padding: 0%;
+        padding: 30px 0 0 0;
     }
     
     .home-content span a i{

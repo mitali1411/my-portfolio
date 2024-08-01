@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
 <header className='header'>
-  <a href="#" className='logo'>Portfolio</a>
+  <a href="#" className='logo'>Portfolio.</a>
 
   <nav className='navbar'>
     <a href="#" className='active'>Home</a>

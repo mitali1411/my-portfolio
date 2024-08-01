@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <section id='contact' className="contact-section">
-      <h3>CONTACT <span>ME</span></h3>
+      <h3 className='mt-4'>CONTACT <span>ME</span></h3>
 
       <div className="contact">
         <div className="info">
