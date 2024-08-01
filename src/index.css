@@ -35,7 +35,7 @@ body{
 .logo{
     width: 200px;
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     color: #a8d3f2;
     text-shadow: 0 0 5px #3591d3, 0 0 20px #3591d3;
@@ -102,6 +102,8 @@ body{
 }
 .left1 p{
     font-size: 20px;
+    margin-top: 25px;
+    text-align: justify;
     backdrop-filter: blur(10px);
     opacity: 0;
     animation: slideLeft 1s ease forwards;
