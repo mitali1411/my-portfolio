@@ -25,6 +25,15 @@ const Projects = () => {
          </div>
 
       <div className="box1">
+        <img src={project8} alt="" />
+        <div className="layer">
+          <h4>Authentication App</h4>
+          <p>Build on Redux Toolkit, here user can login and register, without doing so, he'll unable to reach Home Page.</p>
+          <a href="https://authentication-app-ashen-delta.vercel.app/register" target='_blank'><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div className="box1">
         <img src={project2} alt="" />
         <div className="layer">
           <h4>News</h4>
@@ -75,15 +84,6 @@ const Projects = () => {
           <h4>BMI Calculator</h4>
           <p>Build on JavaScript, here we can calculated our BMI that shows us that we are either healthy, overweight, undeweight or obese.</p>
           <a href="https://bmi-calculator-seven-psi.vercel.app/" target='_blank'><i class='bx bx-link-external'></i></a>
-        </div>
-      </div>
-
-      <div className="box1">
-        <img src={project8} alt="" />
-        <div className="layer">
-          <h4>Authentication App</h4>
-          <p>Build on Redux Toolkit, here user can login and register, without doing so, he'll unable to reach Home Page.</p>
-          <a href="https://authentication-app-ashen-delta.vercel.app/register" target='_blank'><i class='bx bx-link-external'></i></a>
         </div>
       </div>
       </div>
