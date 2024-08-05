@@ -7,6 +7,7 @@ import project5 from '../assets/JS-Todo.png'
 import project6 from '../assets/QR-Generator.png'
 import project7 from '../assets/BMI.png'
 import project8 from '../assets/AuthApp.png'
+import project9 from '../assets/project9.png'
 
 
 const Projects = () => {
@@ -86,8 +87,16 @@ const Projects = () => {
           <a href="https://bmi-calculator-seven-psi.vercel.app/" target='_blank'><i class='bx bx-link-external'></i></a>
         </div>
       </div>
-      </div>
 
+      <div className="box1">
+        <img src={project9} alt="" />
+        <div className="layer">
+          <h4>My Portfolio</h4>
+          <p>Build on React, HTML & CSS</p>
+          <a href="https://my-portfolio-eta-rose-79.vercel.app/" target='#'><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      </div>
     </section>
   )
 }
